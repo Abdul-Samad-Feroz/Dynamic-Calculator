@@ -41,6 +41,21 @@ The Multiplication of 10 and 5 is: 50
 ========================================
 ```
 
+## Build & Run
+
+Compile the program:
+```bash
+g++ main.cpp -o calculator
+```
+
+Run it:
+```bash
+./calculator
+```
+
+On Windows, run `calculator.exe` instead.
+
+
 ## Technologies Used
 
 * C++
