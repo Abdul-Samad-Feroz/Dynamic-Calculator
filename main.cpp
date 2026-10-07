@@ -4,12 +4,15 @@ using namespace std;
 int main()
 {
 
-  printf("==============================\n");
-  printf("      DYNAMIC CALCULATOR      \n");
-  printf("==============================\n");
+  cout << "==============================\n"
+       << endl;
+  cout << "      DYNAMIC CALCULATOR      \n"
+       << endl;
+  cout << "==============================\n"
+       << endl;
 
-  int num1;
-  int num2;
+  float num1;
+  float num2;
   char operation;
 
   cout << "Enter Number 1: " << endl;
@@ -41,11 +44,16 @@ int main()
 
   else if (operation == '*')
   {
-    cout << "The Multplication of " << num1 << " and " << num2 << " is: " << num1 * num2 << endl;
+    cout << "The Multiplication of " << num1 << " and " << num2 << " is: " << num1 * num2 << endl;
     cout << "\n\n========================================\n";
     cout << "       Calculation Successful!\n";
     cout << "  Thank you for using Dynamic Calculator.\n";
     cout << "========================================\n";
+  }
+
+  else if (operation == '/' && num2 == 0)
+  {
+    cout << "Error! Cannot divide by zero." << endl;
   }
 
   else if (operation == '/')
@@ -59,7 +67,7 @@ int main()
 
   else
   {
-    cout << "Error!" << endl;
+    cout << "Error! Invalid operation." << endl;
   }
 
   return 0;
