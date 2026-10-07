@@ -24,25 +24,37 @@ int main()
   if (operation == '+')
   {
     cout << "The Sum of " << num1 << " and " << num2 << " is: " << num1 + num2 << endl;
-    cout << "\n========================================\n";
-cout << "       Calculation Successful!\n";
-cout << "  Thank you for using Dynamic Calculator.\n";
-cout << "========================================\n";
+    cout << "\n\n========================================\n";
+    cout << "       Calculation Successful!\n";
+    cout << "  Thank you for using Dynamic Calculator.\n";
+    cout << "========================================\n";
   }
 
   else if (operation == '-')
   {
     cout << "The Subtraction of " << num1 << " and " << num2 << " is: " << num1 - num2 << endl;
+    cout << "\n\n========================================\n";
+    cout << "       Calculation Successful!\n";
+    cout << "  Thank you for using Dynamic Calculator.\n";
+    cout << "========================================\n";
   }
 
   else if (operation == '*')
   {
     cout << "The Multplication of " << num1 << " and " << num2 << " is: " << num1 * num2 << endl;
+    cout << "\n\n========================================\n";
+    cout << "       Calculation Successful!\n";
+    cout << "  Thank you for using Dynamic Calculator.\n";
+    cout << "========================================\n";
   }
 
   else if (operation == '/')
   {
     cout << "The Division of " << num1 << " and " << num2 << " is: " << num1 / num2 << endl;
+    cout << "\n\n========================================\n";
+    cout << "       Calculation Successful!\n";
+    cout << "  Thank you for using Dynamic Calculator.\n";
+    cout << "========================================\n";
   }
 
   else
